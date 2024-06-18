@@ -4,17 +4,17 @@ meuFormulario.addEventListener("submit", function(event) {
 
 });
 
-{
-function VerificarPositivoNegativo() {
 
-}    else if (numero > 0){
-  return "O número é positivo";
-}    else if (numero < 0) {
-    return "O número é negativo";
-} else if {
-    return "O número é zero";
-}
-}
+function VerificarPositivoNegativo() 
+
+    if (numero > 0){
+      print("O número é positivo");
+    }    else if (numero < 0) {
+        print("O número é negativo");
+    }    else if (numero< 0){
+        print("O número é zero");
+    }
+
 
   let primeiro_numero = Number (("primeiro_numero").value);
 
