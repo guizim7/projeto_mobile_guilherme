@@ -7,28 +7,33 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<h1>Trabalhando com Vetores </h1>
+	<h1>Trabalhando com Vetores</h1>
 	<form id="formulario">
+		<label for="primeiro_numero_inteiro">Digite um valor de cada vez:</label>
+		<input type="text" id="primeiro_numero_inteiro"><br>
 		<br>
-		<label for="resultado">Digite um valor de cada vez:</label>
-		<input type="text" id="resultado" disabled><br>
-		<br>
-		<button type="submit" id="submit-btn">Adicionar Valor</button></br>
-		<table>
-			<tr>
-				<th>Valores</th>
-			</tr>
-		</table>
-		<br>
-	  <button type="submit" id="submit-btn">Mostrar Números Pares</button></br>
-		<br>
-		<table>
-			<tr>
-				<th>Mostrar Números Pares</th>
-			</tr>
-		</table>
-
 		<!-- <button type="submit" onclick="executar()">Enviar</button> -->
+		<button type= "button" id= "add-btn" onclick= "adicionarValor()"> Adicionar Valor </button>
+		<table id= "tabelaValores">
+			<thead>
+				<tr>
+					<th>Valores</th>
+				</tr>
+			</thead>
+			<tbody>
+			</body>
+		</table>
+		<button type= "button" id= "par-btn" onclick= "mostrarPares()"> Mostrar Números par </button>
+		<table id= "tabelaPares">
+			<thead>
+				<tr>
+					<th>Números Pares</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Numeros pares aparecerao aqui-->
+			</tbody>
+		</table>
 	</form>
 	<script src="js/script.js"></script>
 </body>
