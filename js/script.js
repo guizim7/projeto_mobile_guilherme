@@ -19,18 +19,17 @@ function adicionarValor() {
 
 
     }
-}
-/*function mostrarPares(){
-  const valor = document.getElementsById('mostrarPares').getElementsByTagName('tbody')[0];
 
-  for (let i = 0; i < vetor.length; i++){
-    const valor = vetor[i];
-    if (valor % 2 === 0) {
-      const linha = tabela.insertrow();
-      const celula = linha.insertCell(0);
-      celula.textcontent = valor;
-    }
+function multiplicar() {
+  const tabela = document.getElementById('tabelaNumeros').getElementsByTagName('tbody')[0];
+
+    vetor.forEach(valor => {
+        if (valor % 2 === i) {
+          const novalinha = tabela.insertRow();
+          const celula = novalinha.insertCell(0);
+          celula.textContent = valor;
+        }
+    });
+
   }
  }
-}
-*/
