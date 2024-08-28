@@ -20,17 +20,16 @@ function adicionarValor() {
 
     }
 }
-/*function mostrarPares(){
-  const valor = document.getElementsById('mostrarPares').getElementsByTagName('tbody')[0];
+
+function multiplicar(){
+  const tabelaValor = document.getElementsById('tabelaMultiplica').getElementsByTagName('tbody')[0];
 
   for (let i = 0; i < vetor.length; i++){
     const valor = vetor[i];
-    if (valor % 2 === 0) {
+    if ( valor * 2 > 0) {
       const linha = tabela.insertrow();
       const celula = linha.insertCell(0);
       celula.textcontent = valor;
     }
   }
  }
-}
-*/
